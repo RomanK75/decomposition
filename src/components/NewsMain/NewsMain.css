@@ -1,0 +1,16 @@
+.news-headers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.news__header {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.news__header.active {
+  font-weight: bold;
+  color: #000;
+}
